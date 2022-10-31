@@ -1,0 +1,21 @@
+.simplebutton {
+    height: 80px;
+    width: 80px;
+    background-color: rgba(0, 0, 0, 0.589);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size:x-large;
+    color:rgba(240, 248, 255, 0.74);
+    transition: all ease 0.3s;
+}
+
+.simplebutton:hover {
+    background-color: rgba(0, 0, 0, 0.404);
+}
+
+.simplebutton:active {   
+    background-color: rgba(0, 0, 0, 0.192);
+}

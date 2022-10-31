@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');
+
+.bg {
+    width: 316px;    
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.185);
+    padding: 1px;
+    height: 80px;
+    font: 500;
+    color:black;
+    font-size: 50px;
+    text-overflow: clip;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-family: 'Rajdhani';
+    align-items: center;
+    transition: all 0.2s ease;
+}
+
+.smalltext {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 5px;
+}

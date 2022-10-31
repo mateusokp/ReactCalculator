@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -14,7 +16,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+background: linear-gradient(22deg, rgba(2,0,36,1) 0%, rgba(9,100,121,1) 7%, rgba(0,255,218,1) 100%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +37,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+background: rgb(0,32,36);
+background: linear-gradient(22deg, rgba(0,32,36,0.8445475638051044) 0%, rgba(9,100,121,1) 7%, rgba(0,255,218,1) 100%);
 }
